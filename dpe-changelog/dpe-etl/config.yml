@@ -4,6 +4,7 @@ info:
   title: CHANGELOG
   repository_url: https://github.com/tanayagarflyr/fakeRM
 options:
+  tag_filter_pattern: '^dpe-etl'
   commits:
      filters:
        Type:
