@@ -8,6 +8,7 @@ options:
      filters:
        Type:
          - feat
+         - feat
          - fix
          - perf
          - refactor
