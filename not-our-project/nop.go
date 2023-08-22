@@ -1,5 +1,7 @@
 package main
 
-func main() {
+const boop int = 1
 
+func main() {
+	_ = boop
 }
