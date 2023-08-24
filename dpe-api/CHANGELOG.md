@@ -1,5 +1,17 @@
 # DPE API Changelog
 
+## [1.2.0](https://github.com/tanayagarflyr/fakeRM/compare/dpe-api-v1.1.1...dpe-api-v1.2.0) (2023-08-24)
+
+
+### Features
+
+* **influences:** feature ([#23](https://github.com/tanayagarflyr/fakeRM/issues/23)) ([f2abac8](https://github.com/tanayagarflyr/fakeRM/commit/f2abac83129be74f0ec874fee756f943f0f5774d))
+
+
+### Bug Fixes
+
+* **influences:** this is a fix ([#24](https://github.com/tanayagarflyr/fakeRM/issues/24)) ([2e55632](https://github.com/tanayagarflyr/fakeRM/commit/2e556320c6ac8da21ce7a27e211fd692cd35ab1c))
+
 ## [1.1.1](https://github.com/tanayagarflyr/fakeRM/compare/dpe-api-v1.1.0...dpe-api-v1.1.1) (2023-08-24)
 
 
