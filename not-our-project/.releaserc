@@ -1,0 +1,34 @@
+{
+  "branches": "main",
+  "repositoryUrl": "https://github.com/tanayagarflyr/fakeRM",
+  "debug": "false",
+  "tagFormat":"not-mine-v${version}",
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          { "type": "doc", "release": false },
+          { "type": "refactor", "release": "patch" },
+          { "scope": "no-release", "release": false }
+        ]
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# not my project Changelog"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"]
+      }
+    ]
+  ]
+}
